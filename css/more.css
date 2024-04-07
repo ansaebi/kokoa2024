@@ -1,0 +1,88 @@
+@import "reset.css";
+@import "nav-bar.css";
+@import "status-bar.css";
+@import "screen-header.css";
+@import "user-component.css";
+@import "alt-screen-header.css";
+@import "icon-row.css";
+@import "badge.css";
+@import "no-mobile.css";
+
+.more-screens {
+  padding: 0px 25px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1px;
+}
+
+.screen-header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.user-component_column {
+  margin-bottom: 40px;
+}
+
+.user-component_time_bans {
+  margin-right: 8px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.screen-header_icons {
+  position: relative;
+}
+
+.screen-header_icons > i {
+  position: absolute;
+  color: red;
+  font-size: 10px;
+  bottom: 15px;
+}
+
+.user-component-text i {
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+  width: 15px;
+  border-radius: 3px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 40px;
+}
+
+.more-suggestions-title {
+  margin-bottom: 30px;
+}
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.more-suggestions__icon-image img {
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-text {
+  text-align: center;
+}

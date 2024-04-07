@@ -1,0 +1,80 @@
+@import "reset.css";
+@import "nav-bar.css";
+@import "status-bar.css";
+@import "screen-header.css";
+@import "user-component.css";
+@import "alt-screen-header.css";
+@import "icon-row.css";
+@import "badge.css";
+@import "no-mobile.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1px;
+}
+
+.login_text {
+  margin-top: 130px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_text_title > h1 {
+  font-size: 30px;
+}
+
+.login_text_imformation {
+  width: 50%;
+  margin-top: 50px;
+  color: gray;
+}
+
+#login-form {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#login-form input {
+  border: none;
+  font-size: 18px;
+  padding: 15px 0px;
+  margin-bottom: 30px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#login-form input[type="submit"] {
+  cursor: pointer;
+}
+
+#login-form input:focus {
+  border-color: #302d2c;
+  outline: none;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-qrcode {
+  display: flex;
+  color: black;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 120px;
+}
+
+#login-form a {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}

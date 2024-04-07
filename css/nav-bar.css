@@ -1,0 +1,75 @@
+@import "badge.css";
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav_notification {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  animation: notificationAnimation 1.2s ease-in-out infinite;
+}
+
+.fa-circle {
+  color: tomato;
+  font-size: 6px;
+  font-weight: 600;
+  position: absolute;
+  left: 29px;
+  bottom: 20px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transition: none;
+  }
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav_btn {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+
+.nav_btn:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.nav_btn:nth-child(3) {
+  animation-delay: 0.5s;
+}
+.nav_btn:last-child {
+  animation-delay: 0.8s;
+}

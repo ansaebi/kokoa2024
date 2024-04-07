@@ -1,0 +1,33 @@
+@import "reset.css";
+@import "nav-bar.css";
+@import "status-bar.css";
+@import "screen-header.css";
+@import "user-component.css";
+@import "alt-screen-header.css";
+@import "icon-row.css";
+@import "badge.css";
+@import "no-mobile.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1px;
+}
+
+.screen-header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.user-component_column {
+  margin-bottom: 40px;
+}
+
+.chats-screen {
+  padding: 0px 25px;
+}
+
+.user-component_time_bans {
+  margin-right: 8px;
+  margin-bottom: 5px;
+  display: block;
+}
